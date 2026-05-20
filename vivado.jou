@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue May 19 09:26:49 2026
+# Process ID: 4620
+# Current directory: C:/Users/MSI/Responsi_Mod5_SDL Mealy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34952 C:\Users\MSI\Responsi_Mod5_SDL Mealy\Responsi_Mod5_SDL.xpr
+# Log file: C:/Users/MSI/Responsi_Mod5_SDL Mealy/vivado.log
+# Journal file: C:/Users/MSI/Responsi_Mod5_SDL Mealy\vivado.jou
+# Running On: dinoshaurs, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 10, Host memory: 16870 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi_Mod5_SDL.xpr}
+update_compile_order -fileset sources_1
+create_project {Responsi Mod 5 Mealy} {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy} -part xc7a100tcsg324-1
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
+current_project Responsi_Mod5_SDL
+close_project
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new
+file mkdir {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new}
+close [ open {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/top.v} w ]
+add_files {{C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/top.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/fsm_mealy.v} w ]
+add_files {{C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/fsm_mealy.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/debouncer.v} w ]
+add_files {{C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/debouncer.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/display.v} w ]
+add_files {{C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/sources_1/new/display.v}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new
+file mkdir C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1
+file mkdir {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new}
+close [ open {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new/constraint.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.srcs/constrs_1/new/constraint.xdc}}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/MSI/Responsi_Mod5_SDL Mealy/Responsi Mod 5 Mealy/Responsi Mod 5 Mealy.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
